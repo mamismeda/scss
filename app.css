@@ -1,0 +1,72 @@
+nav {
+  padding: 0 0 0 100px;
+  position: fixed;
+}
+nav li {
+  margin: 0 20px 0 0;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo span {
+  width: 50%;
+  font-size: 50px;
+  margin: 0 150px 0 0;
+}
+
+.header-div {
+  background-image: url(https://cdn.pixabay.com/photo/2018/05/04/07/55/snow-3373432_960_720.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  color: #fff;
+}
+.header-div span {
+  border: 4px solid #4d91ff;
+  padding: 0 70px 0 0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.header-div h1 {
+  margin: 25px 0 0 0;
+}
+.header-div p {
+  font-size: 1.5rem;
+  margin: 15px 0 25px 0;
+}
+.header-div a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4d91ff;
+  padding: 10px 15px;
+}
+.header-div .black {
+  width: 100%;
+  height: 100%;
+  padding: 150px 250px;
+  background: rgba(6, 7, 6, 0.671);
+}
+
+.inp {
+  text-align: center;
+  background: rgba(6, 7, 6, 0.671);
+  border: 5px solid #4d91ff;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+.inp button {
+  background-color: #4d91ff;
+  padding: 10px 40px;
+  color: #fff;
+}
+.inp input {
+  padding: 10px 0;
+  outline: none;
+}
+
+/*# sourceMappingURL=app.css.map */

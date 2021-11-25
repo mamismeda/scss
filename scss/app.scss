@@ -1,0 +1,70 @@
+$tegcolor:rgb(77, 145, 255);
+
+nav{
+    padding: 0 0 0 100px;
+    position: fixed;
+    li{
+        margin: 0 20px 0 0;
+    }
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    span{
+        width: 50%;
+        font-size: 50px;
+        margin: 0 150px 0 0;
+    }
+}    
+.header-div{
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/04/07/55/snow-3373432_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #fff;
+    span{
+        border: 4px solid $tegcolor;
+        padding: 0 70px 0 0;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    h1{
+        margin: 25px 0 0 0 ;
+    }
+    p{
+        font-size: 1.5rem;
+        margin: 15px 0 25px 0;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        background-color: $tegcolor;
+        padding: 10px 15px;
+    }
+    .black{
+        width: 100%;
+        height: 100%;
+        padding: 150px 250px;
+        background: rgba(6, 7, 6, 0.671)
+    }
+}
+.inp{
+    text-align: center;
+    background: rgba(6, 7, 6, 0.671);
+    border: 5px solid $tegcolor;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    button{
+        background-color: $tegcolor;
+        padding: 10px 40px;
+        color: #fff;
+    }
+    input{
+        padding: 10px 0;
+        outline: none;
+    }
+}
+  
