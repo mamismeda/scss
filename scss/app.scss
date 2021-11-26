@@ -1,4 +1,5 @@
 $tegcolor:rgb(77, 145, 255);
+$greycolor: rgb(184, 180, 180);
 
 nav{
     padding: 0 0 0 100px;
@@ -110,7 +111,7 @@ nav{
                 backdrop-filter: blur(5px);
             }
             p{
-                color: rgb(184, 180, 180);
+                color: $greycolor;
                 width: 100%;
                 margin-block-start: 0;
                 margin-block-end: 0;
@@ -136,7 +137,85 @@ nav{
         }
     }
 }
-
+.stars{
+    background-color: rgb(240, 232, 232);
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+.stars-div{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    a{
+        display: block;
+        margin: 0 0 15px 0;
+        text-decoration: none;
+    }
+    p{
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+ }
+ .divizion{
+     width: 33.33%;
+     border-radius: 15px;
+     position: relative;
+     padding: 0 25px;
+     img{
+         width: 100%;
+         border-radius: 15px 15px 0 0;
+         box-shadow: 5px 3px 5px grey;
+     }
+     .texting{
+         padding: 20px 20px 20px 30px;
+         border-radius: 0 0 15px 15px;
+         background-color: #fff;
+         box-shadow: 5px 3px 5px grey;
+         
+         a{
+             text-decoration: none;
+         }
+         p{
+             color:$greycolor ;
+         }
+         span{
+             color: $greycolor;
+             padding: 10px 15px;
+             border: 1px solid grey;
+             border-right:none;
+             border-left:none;
+             border-bottom: none;
+             
+         }
+     }
+     .sun{
+         position: absolute;
+         top: 20px;
+         left: 50px;
+         span{
+             color: #fff;
+         }
+     }
+     .moon{
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        background-color: $tegcolor;
+        padding: 30px;
+        border-radius: 50%;
+        h1{
+            font-size: 1rem;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #fff;
+        }
+        h2{
+            font-size: 0.7rem;
+            color: #fff;
+        }
+     }
+ }
+}
 
 
   

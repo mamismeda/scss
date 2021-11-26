@@ -137,4 +137,82 @@ nav li {
   color: #4d91ff;
 }
 
+.stars {
+  background-color: #f0e8e8;
+  padding: 50px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.stars .stars-div {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.stars .stars-div a {
+  display: block;
+  margin: 0 0 15px 0;
+  text-decoration: none;
+}
+.stars .stars-div p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.stars .divizion {
+  width: 33.33%;
+  border-radius: 15px;
+  position: relative;
+  padding: 0 25px;
+}
+.stars .divizion img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 5px 3px 5px grey;
+}
+.stars .divizion .texting {
+  padding: 20px 20px 20px 30px;
+  border-radius: 0 0 15px 15px;
+  background-color: #fff;
+  box-shadow: 5px 3px 5px grey;
+}
+.stars .divizion .texting a {
+  text-decoration: none;
+}
+.stars .divizion .texting p {
+  color: #b8b4b4;
+}
+.stars .divizion .texting span {
+  color: #b8b4b4;
+  padding: 10px 15px;
+  border: 1px solid grey;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+.stars .divizion .sun {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+.stars .divizion .sun span {
+  color: #fff;
+}
+.stars .divizion .moon {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  background-color: #4d91ff;
+  padding: 30px;
+  border-radius: 50%;
+}
+.stars .divizion .moon h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+}
+.stars .divizion .moon h2 {
+  font-size: 0.7rem;
+  color: #fff;
+}
+
 /*# sourceMappingURL=app.css.map */
