@@ -129,5 +129,12 @@ nav li {
   border-radius: 15px;
   background: rgba(6, 7, 6, 0.671);
 }
+.gallery .circle {
+  margin: 25px 0 50px 0;
+  text-align: center;
+}
+.gallery .circle span:nth-child(1) {
+  color: #4d91ff;
+}
 
 /*# sourceMappingURL=app.css.map */

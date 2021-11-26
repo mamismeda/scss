@@ -128,7 +128,15 @@ nav{
             }
         }
     }
+    .circle{
+        margin: 25px 0 50px 0;
+        text-align: center;
+        span:nth-child(1){
+            color:$tegcolor;
+        }
+    }
 }
+
 
 
   
