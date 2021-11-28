@@ -140,7 +140,7 @@ nav li {
 
 .stars {
   background-color: #f0e8e8;
-  padding: 50px 100px 0 100px;
+  padding: 50px 100px 50px 100px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -148,6 +148,7 @@ nav li {
   margin: auto;
   text-align: center;
   width: 100%;
+  margin: 0 0 25px 0;
 }
 .stars .stars-div a {
   display: block;
@@ -214,6 +215,52 @@ nav li {
 .stars .divizion .moon h2 {
   font-size: 0.7rem;
   color: #fff;
+}
+
+.icon {
+  padding: 50px 100px 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon .icon-div {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.icon .icon-div a {
+  display: block;
+  margin: 0 0 15px 0;
+  text-decoration: none;
+}
+.icon .icon-div p {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0 0 50px 0;
+}
+.icon .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.icon .container .content {
+  width: 30%;
+  padding: 50px 25px;
+  margin: 0 35px 0 0;
+  border: 1px solid #b8b4b4;
+  border-radius: 15px;
+}
+.icon .container .content span {
+  display: block;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #4d91ff;
+}
+.icon .container .content h5 {
+  text-align: center;
+}
+.icon .container .content p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=app.css.map */
