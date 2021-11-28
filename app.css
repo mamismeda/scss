@@ -75,6 +75,7 @@ nav li {
 .gallery .head-div {
   margin: auto;
   text-align: center;
+  width: 100%;
 }
 .gallery .head-div a {
   display: block;
@@ -139,7 +140,7 @@ nav li {
 
 .stars {
   background-color: #f0e8e8;
-  padding: 50px 0 0 0;
+  padding: 50px 100px 0 100px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -169,7 +170,7 @@ nav li {
   box-shadow: 5px 3px 5px grey;
 }
 .stars .divizion .texting {
-  padding: 20px 20px 20px 30px;
+  padding: 20px 20px 20px 20px;
   border-radius: 0 0 15px 15px;
   background-color: #fff;
   box-shadow: 5px 3px 5px grey;
@@ -182,7 +183,7 @@ nav li {
 }
 .stars .divizion .texting span {
   color: #b8b4b4;
-  padding: 10px 15px;
+  padding: 10px 2px;
   border: 1px solid grey;
   border-right: none;
   border-left: none;
