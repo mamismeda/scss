@@ -60,6 +60,7 @@ nav li {
   border-top: none;
 }
 .inp button {
+  text-decoration: none;
   background-color: #4d91ff;
   padding: 10px 40px;
   color: #fff;
@@ -218,7 +219,7 @@ nav li {
 }
 
 .icon {
-  padding: 50px 100px 50px 100px;
+  padding: 50px 150px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -242,6 +243,7 @@ nav li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 0 0 100px 0;
 }
 .icon .container .content {
   width: 30%;
@@ -261,6 +263,49 @@ nav li {
 }
 .icon .container .content p {
   text-align: center;
+}
+.icon .space {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0 0 0;
+  border-top: 1px solid #b8b4b4;
+}
+.icon .space .text-space {
+  padding: 50px;
+  width: 50%;
+}
+.icon .space .text-space p {
+  color: #b8b4b4;
+  margin: 20px 0 30px 0;
+}
+.icon .space .text-space a {
+  text-decoration: none;
+  background-color: #4d91ff;
+  padding: 10px 40px;
+  color: #fff;
+}
+.icon .head-space {
+  width: 50%;
+  padding: 50px;
+}
+.icon .head-space h5 {
+  padding: 20px 10px;
+  border: 1px solid #b8b4b4;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.icon .head-space h5 span {
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 200px;
+  text-align: right;
+  color: #4d91ff;
+}
+.icon .head-space p {
+  padding: 20px 10px;
+  border: 1px solid #b8b4b4;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
