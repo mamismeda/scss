@@ -390,6 +390,63 @@ nav{
          }
      }
 }
-
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    .footer-div{
+        span{
+            font-size: 2rem;
+        }
+        p{
+            margin: 20px 0;
+            color: $greycolor;
+        }
+        width: 40%;
+    }
+    .iconics{
+        span{
+            color: $greycolor;
+        }
+    }
+    .second-footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        h4{
+            width: 100%;
+        }
+        ul{
+            width: 50%;
+            list-style-type: square;
+            color: $tegcolor;
+    }
+  
+}
+.info{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        color: $greycolor;
+    }
+    span{
+        width: 30%;
+    }
+    a{
+        width: 70%;
+        text-decoration: none;
+    }
+}
+}
+.copyright{
+    background-color: rgb(240, 232, 232);
+    text-align: center;
+    color: $greycolor;
+    padding: 50px;
+    span{
+        color: $tegcolor;
+    }
+}
 
   

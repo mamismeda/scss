@@ -406,4 +406,61 @@ nav li {
   color: #fff;
 }
 
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+footer .footer-div {
+  width: 40%;
+}
+footer .footer-div span {
+  font-size: 2rem;
+}
+footer .footer-div p {
+  margin: 20px 0;
+  color: #b8b4b4;
+}
+footer .iconics span {
+  color: #b8b4b4;
+}
+footer .second-footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+footer .second-footer h4 {
+  width: 100%;
+}
+footer .second-footer ul {
+  width: 50%;
+  list-style-type: square;
+  color: #4d91ff;
+}
+footer .info {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .info p {
+  color: #b8b4b4;
+}
+footer .info span {
+  width: 30%;
+}
+footer .info a {
+  width: 70%;
+  text-decoration: none;
+}
+
+.copyright {
+  background-color: #f0e8e8;
+  text-align: center;
+  color: #b8b4b4;
+  padding: 50px;
+}
+.copyright span {
+  color: #4d91ff;
+}
+
 /*# sourceMappingURL=app.css.map */
