@@ -372,6 +372,24 @@ nav{
       }
   }
 }
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+     .foot-div{
+         @include center;
+         padding: 100px 0;
+         border-bottom: 1px solid $greycolor;
+         p{
+          margin: 20px 0 30px 0;
+         }
+         a{
+             text-decoration: none;
+         }
+         .bordtag{
+            @include atag();
+         }
+     }
+}
 
 
   

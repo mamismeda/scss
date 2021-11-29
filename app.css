@@ -382,4 +382,28 @@ nav li {
   color: #fff;
 }
 
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+}
+.foot .foot-div {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  padding: 100px 0;
+  border-bottom: 1px solid #b8b4b4;
+}
+.foot .foot-div p {
+  margin: 20px 0 30px 0;
+}
+.foot .foot-div a {
+  text-decoration: none;
+}
+.foot .foot-div .bordtag {
+  text-decoration: none;
+  background-color: #4d91ff;
+  padding: 10px 40px;
+  color: #fff;
+}
+
 /*# sourceMappingURL=app.css.map */
