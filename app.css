@@ -334,47 +334,48 @@ nav li {
   color: #4d91ff;
 }
 
-.card {
+.abbs {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 0 50px 0;
+  padding: 50px;
 }
-.card .card-div {
+.abbs .card-div {
   margin: auto;
   text-align: center;
   width: 100%;
   margin: 0 0 50px 0;
 }
-.card .card-div a {
+.abbs .card-div a {
   display: block;
   margin: 0 0 15px 0;
   text-decoration: none;
 }
-.card .card-div p {
+.abbs .card-div p {
   font-weight: bold;
   font-size: 1.3rem;
 }
-.card .price {
-  width: 33.33%;
+.abbs .price {
+  width: 30%;
   background-color: #4d91ff;
   border-radius: 15px;
+  margin: 0 42px 0 0;
 }
-.card .price .price-div {
+.abbs .price .price-div {
   text-align: center;
   color: #fff;
   padding: 20px;
 }
-.card .price .second-price {
+.abbs .price .second-price {
   text-align: center;
   background-color: #f0e8e8;
   border-radius: 0 0 15px 15px;
   padding: 30px;
 }
-.card .price .second-price p {
+.abbs .price .second-price p {
   font-weight: bold;
   margin: 0 0 30px 0;
 }
-.card .price .second-price a {
+.abbs .price .second-price a {
   text-decoration: none;
   background-color: #4d91ff;
   padding: 10px 40px;

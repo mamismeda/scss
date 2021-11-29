@@ -330,10 +330,10 @@ nav{
            }
        }
 }
-.card{
+.abbs{
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 0 50px 0;
+    padding: 50px ;
      .card-div{
          @include center;
          margin: 0 0 50px 0;
@@ -348,9 +348,10 @@ nav{
         }
      }
   .price{
-      width: 33.33%;
+      width: 30%;
       background-color: $tegcolor;
       border-radius: 15px;
+      margin: 0 42px 0 0 ;
       .price-div{
           text-align: center;
           color: #fff;
