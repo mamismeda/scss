@@ -333,6 +333,43 @@ nav{
 .card{
     display: flex;
     flex-wrap: wrap;
+    padding: 50px 0 50px 0;
+     .card-div{
+         @include center;
+         margin: 0 0 50px 0;
+         a{
+            display: block;
+            margin: 0 0 15px 0;
+            text-decoration: none;
+        }
+        p{
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+     }
+  .price{
+      width: 33.33%;
+      background-color: $tegcolor;
+      border-radius: 15px;
+      .price-div{
+          text-align: center;
+          color: #fff;
+          padding: 20px;
+      }
+      .second-price{
+          text-align: center;
+          background-color: rgb(240, 232, 232);
+          border-radius: 0 0 15px 15px;
+          padding: 30px;
+          p{
+              font-weight: bold;
+              margin: 0 0 30px 0;
+          }
+          a{
+              @include atag;
+          }
+      }
+  }
 }
 
 
