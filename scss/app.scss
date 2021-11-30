@@ -61,6 +61,19 @@ nav{
         padding: 150px 250px;
         background: rgba(6, 7, 6, 0.671)
     }
+    @media all and (max-width:750px){
+        .black{
+            padding: 50px 100px;
+        }
+    }
+    @media all and (max-width:500px){
+        input{
+            width: 100%;
+        }
+        .black{
+            padding: 10px 20px;
+        }
+    }
 }
 .inp{
     text-align: center;
@@ -127,7 +140,7 @@ nav{
             }
             
         }
-        .img{
+        .tech{
             width: 20%;
             padding: 10px 10px;
             img{
@@ -136,6 +149,26 @@ nav{
                 background: rgba(6, 7, 6, 0.671)
             }
         }
+        @media all and (max-width:1000px){
+            .tech{
+                padding: 0;
+            } 
+            .pic{
+                display: none;
+            }
+        }  
+        @media all and (max-width:800px){
+            .tech{
+                width: 33.33%;
+            }
+        }
+        @media all and (max-width:500px){
+            .tech{
+                width: 100%;
+            }
+        }
+           
+   
     }
     .circle{
         margin: 25px 0 50px 0;
@@ -163,6 +196,7 @@ nav{
         font-size: 1.3rem;
     }
  }
+ 
  .divizion{
      width: 33.33%;
      border-radius: 15px;
@@ -195,6 +229,11 @@ nav{
              
          }
      }
+     @media all and (max-width:1000px){
+         .texting span{
+             border: none;
+         }
+     }
      .sun{
          position: absolute;
          top: 20px;
@@ -222,11 +261,32 @@ nav{
         }
      }
  }
+ @media all and (max-width:1000px){
+    .divizion{
+        width: 50%;
+    }
+}
+@media all and (max-width:550px){
+    .divizion{
+        width: 100%;
+    }
+}
+}
+@media all and (max-width:1000px){
+    .stars{
+        padding: 10px 20px;
+    }
 }
 .icon{
     padding: 50px 150px ;
     display: flex;
     flex-wrap: wrap;
+    @media all and (max-width:1000px){
+        padding: 25px 75px;
+    }
+    @media all and (max-width:550px){
+        padding: 0;
+    }
     .icon-div{
         @include center;
         a{
@@ -265,7 +325,27 @@ nav{
               text-align: center;
           }
       }
+      @media all and (max-width:1000px){
+        .content{
+            margin: 0;
+            width: 50%;
+        }
+    }
+    @media all and (max-width:550px){
+        .content{
+            width: 100%;
+            padding: 15px;
+        }
+        .content span{
+            font-size: 2rem;
+        }
+    }
   }
+  @media all and (max-width:550px){
+    .container{
+        padding: 0;
+    }
+}
   .space{
       display: flex;
       flex-wrap: wrap;
@@ -282,6 +362,12 @@ nav{
             @include atag;
           }
       }
+      @media all and (max-width:800px){
+        .text-space{
+            width: 100%;
+            padding: 20px;
+        }
+    }
   }
   .head-space{
       width: 50%;
@@ -306,7 +392,14 @@ nav{
           margin-block-end: 0;
       }
   }
+  @media all and (max-width:800px){
+      .head-space{
+          width: 100%;
+          padding: 20px;
+      }
+  }
 }
+
 .video{
     background-image: url(https://cdn.pixabay.com/photo/2021/11/08/23/29/nature-6780354_960_720.jpg);
     background-position: center;
@@ -329,6 +422,11 @@ nav{
                }
            }
        }
+       @media all and (max-width:550px){
+           .video-div{
+             padding:50px;
+       }
+    }
 }
 .abbs{
     display: flex;
@@ -371,6 +469,21 @@ nav{
           }
       }
   }
+  @media all and (max-width:1000px){
+      .price{
+          margin: 0;
+      }
+  }
+  @media all and (max-width:700px){
+      .price{
+          width: 100%;
+      }
+  }
+}
+@media all and (max-width:850px){
+    .abbs{
+        padding: 0;
+    }
 }
 .foot{
     display: flex;
@@ -438,6 +551,22 @@ footer{
         text-decoration: none;
     }
 }
+@media all and (max-width:800px){
+    .footer-div{
+        width: 100%;
+    }
+    .second-footer{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+}
+}
+@media all and (max-width:1000px){
+    footer{
+        padding: 20px;
+    }
 }
 .copyright{
     background-color: rgb(240, 232, 232);
@@ -449,4 +578,5 @@ footer{
     }
 }
 
-  
+
+
